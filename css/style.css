@@ -112,9 +112,11 @@ img {
 
 .main-header {
 	padding-top: 30px;
-	background: url(../img/bg-header.png) rgba(96, 96, 110, 0.5);
+	background-blend-mode: multiply;
+	background-image: url(../img/bg-header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: rgba(98, 98, 98, 0.1);
 }
 
 .main-nav {
